@@ -1,6 +1,6 @@
 import unittest
 
-from typejudge import judgement
+from actions import judgement
 
 
 class JudgeTest(unittest.TestCase):
