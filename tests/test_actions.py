@@ -7,7 +7,7 @@ class JudgeTest(unittest.TestCase):
 
     def test_judgement(self):
         typecode = judgement('a')
-        # データ型の判定
+        #  データ型の判定
         self.assertIsInstance(typecode, type)
 
 
