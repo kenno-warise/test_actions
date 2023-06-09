@@ -5,7 +5,7 @@
 
 def judgement(
     code: str | int | float | bytes | object | list | tuple | dict | set,
-) -> type:
+) -> str:
     """型を判定する関数."""
     return type(code)
 
